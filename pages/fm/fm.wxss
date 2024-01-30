@@ -1,0 +1,111 @@
+.container{
+    flex-direction: column;
+}
+.topContent{
+    height: 550rpx;
+    /* background-color: gainsboro; */
+    border-bottom: gainsboro solid 1rpx;
+}
+.info{
+    margin-top: 20rpx;
+}
+.t1{
+    display: block;
+    font-size: larger;
+    margin-left: 40rpx;
+}
+.t2{
+    display: block;
+    font-size: small;
+    color: gray;
+    margin-left: 40rpx;
+    margin-top: 5rpx;
+}
+.image{
+    height: 450rpx;
+}
+.fhrImage{
+    height: 90%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    border: rgb(143, 141, 141) solid 1rpx;
+    border-radius: 12rpx;
+}
+.tap{
+    display: flex;
+    height: 70rpx;
+    width: 100%;
+    border-bottom: gainsboro solid 1rpx;
+}
+.tap1{
+    display: flex;
+    width: 80rpx;
+    /* background-color: gold; */
+    align-items: center;
+    justify-content:center;
+    color: gray;
+    margin-left: 30rpx;
+}
+.tap1-selected{
+  display: flex;
+    width: 80rpx;
+    /* background-color: gold; */
+    align-items: center;
+    justify-content:center;
+    color: rgb(251, 0, 255);
+    margin-left: 30rpx;
+    border-bottom: rgb(251, 0, 255) solid 6rpx;
+}
+.tap2{
+    display: flex;
+    width: 150rpx;
+    /* background-color: goldenrod; */
+    align-items: center;
+    justify-content:center;
+    color: gray;
+    margin-left: 30rpx;
+}
+.tap2-selected{
+  display: flex;
+  width: 150rpx;
+  /* background-color: goldenrod; */
+  align-items: center;
+  justify-content:center;
+  color: rgb(251, 0, 255);
+  border-bottom: rgb(251, 0, 255) solid 6rpx;
+  margin-left: 30rpx;
+}
+
+.introTitle{
+  display: block;
+  margin-left: 30rpx;
+  margin-top: 35rpx;
+  font-weight: bold;
+}
+.introContent{
+  display: block;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 15rpx;
+  font-size: 28rpx;
+  color: gray;
+  line-height: 55rpx;
+}
+.explain1{
+  display: block;
+  color: gray;
+  margin-left: 60rpx;
+  margin-top: 30rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.explain2{
+  display: block;
+  color: gray;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}

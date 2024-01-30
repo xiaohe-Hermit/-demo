@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="topContent">
+        <view class="info">
+            <text class="t1">宫缩</text>
+            <text class="t2">信号</text>
+        </view>
+        <view class="image">
+            <image class="fhrImage" src="{{fhrImageUrl}}" mode=""/> 
+        </view>
+    </view>
+    <view class="buttomContent">
+        <view class="tap">
+          <view class="{{isTap1Selected ? 'tap1-selected' : 'tap1'}}" bindtap="switchToTap1">
+                <text>介绍</text>
+            </view>
+            <view class="{{isTap2Selected ? 'tap2-selected' : 'tap2'}}" bindtap="switchToTap2">
+                <text>指标解读</text>
+            </view>
+        </view>
+        <view class="detail">
+          <view wx:if="{{isTap1Selected}}">
+                <text class="introTitle">关于宫缩</text>
+                <text class="introContent">{{intro}}</text>
+                <text class="introContent">{{intro2}}</text>
+            </view>
+            <view class="" wx:else>
+                <text class="explain1">{{explain1}}</text>
+                <text class="explain2">{{explain2}}</text>
+            </view>
+        </view>
+    </view>
+</view>

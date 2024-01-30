@@ -1,0 +1,54 @@
+
+.container{
+    flex-direction: column;
+}
+.top-content{
+    display: flex;
+    height: 150rpx;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 206, 244, 1.0) 0%, rgba(251, 0, 255, 0.29) 57.5%, rgba(136, 0, 255, 0.39) 100%);
+}
+.title{
+    color: white;
+    font-size: 40rpx;
+    font-weight: bold;
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+
+.buttom-content{
+    flex-direction: column;
+}
+.info{
+    margin-top: 30rpx;
+    margin-left: 50rpx;
+    padding-bottom: 20rpx;
+    border-bottom: gainsboro 2rpx solid;
+}
+.info text{
+    font-size: large;
+}
+.n{
+    display: flex;
+    height: 150rpx;
+    width: 650rpx;
+    margin-left: 45rpx;
+    margin-top: 40rpx;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bar-image{
+    height: 110rpx;
+    width: 110rpx;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+    border-radius: 12rpx;
+}
+.toName{
+    color: black;
+    font-size: 36rpx;
+    margin-left: 30rpx;
+    margin-top: 50rpx;
+}
+

@@ -1,0 +1,49 @@
+.container{
+    flex-direction: column;
+}
+.top{
+    flex-direction: column;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30rpx;
+}
+.message .m1{
+    font-size: 50rpx;
+}
+.message .m2{
+    margin-top: 30rpx;
+    color: rgba(142, 154, 171, 1);
+    font-size: 30rpx;
+}
+.input{
+    display: flex;
+    width: 80%;
+    margin-top: 50rpx;
+    margin-left: 5%;
+    align-items: center;
+    border-bottom: rgba(229, 229, 229, 1) solid 5rpx;
+    padding-bottom: 20rpx;
+}
+.input image{
+    width: 50rpx;
+    height: 50rpx;
+}
+.input input{
+    margin-left: 20rpx;
+}
+.submit{
+    margin-top: 50rpx;
+}
+.submit button{
+    background-color: rgba(254, 181, 255, 1);
+    color: white;
+    font-weight: 400;
+    width: 90% !important;
+    border-radius: 12px;
+    border-radius: 12px;
+}
+

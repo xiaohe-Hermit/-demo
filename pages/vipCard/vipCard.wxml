@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="top">
+        <view class="message">
+            <text class="m1">添加会员卡</text>
+            <text class="m2">如果您有会员卡，您可以在下面的字段中输入您的会员编号或稍后将其添加到您的个人资料中。</text>
+        </view>
+        <view class="input">
+            <image src="/static/icon/票据.png" mode=""/>
+            <input type="number" placeholder="输入会员卡号" placeholder-style="color:rgba(178, 186, 198, 1)"/>
+        </view>
+    </view>
+    <view class="submit">
+        <button>提交</button>
+    </view>
+</view>

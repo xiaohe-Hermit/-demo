@@ -1,0 +1,22 @@
+<view class="container">
+    <view class="top-content">
+        <text class="title">CTG信号查看</text>
+    </view>
+    <view class="buttom-content">
+        <view class="info">
+            <text>信号类型</text>
+        </view>
+        <view class="n" bindtap="toFHR">
+            <image class="bar-image" src="https://img.js.design/assets/img/645ca56b3a2c1670d222b3bb.png#5247eba5632114090ed87f3f8b16cb92"></image>
+            <text class="toName">胎心率</text>
+        </view>
+        <view class="n" bindtap="toUC">
+            <image class="bar-image" src="https://img.js.design/assets/img/645ca56b3a2c1670d222b3bb.png#5247eba5632114090ed87f3f8b16cb92"></image>
+            <text class="toName">宫缩</text>
+        </view>
+        <view class="n" bindtap="toFM">
+            <image class="bar-image" src="https://img.js.design/assets/img/645ca56b3a2c1670d222b3bb.png#5247eba5632114090ed87f3f8b16cb92"></image>
+            <text class="toName">胎动</text>
+        </view>
+    </view>
+</view>

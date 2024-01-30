@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.userImage{
+    margin-top: 20rpx;
+    margin-left: 75rpx;
+}
+.userImage .edit{
+    border-radius: 50%;
+    /* border: solid rgb(251, 21, 210) 1rpx; */
+    background-color: white;
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: -40rpx;
+}
+.userImage image{
+    border-radius: 50%;
+    height: 150rpx;
+    width: 150rpx;
+}
+.massage{
+    margin-top: 40rpx;
+}
+.massage .inputArea{
+    /* background-color: violet; */
+    height: 120rpx;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.inputArea text{
+    font-size: small;
+}
+.inputArea input{
+    margin-top: 20rpx;
+    border-bottom: rgba(229, 229, 229, 1) solid 5rpx;
+}
+.inputArea picker{
+    margin-top: 20rpx;
+    border-bottom: rgba(229, 229, 229, 1) solid 5rpx;
+}
+.pickers{
+    display: flex;
+    /* background-color: violet; */
+    width: 85%;
+    margin-left: 7.5%;
+}
+.picker{
+    width: 47.5%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
+.picker text{
+    font-size: small;
+}
+.picker picker{
+    margin-top: 25rpx;
+    border-bottom: rgba(229, 229, 229, 1) solid 5rpx;
+}
+.picker image{
+    height: 40rpx;
+    width: 40rpx;
+    float: right;
+}
+.submit{
+    border-top: rgba(229, 229, 229, 1) solid 1rpx;
+    margin-top: 30rpx;
+}
+.submit button{
+    margin-top: 20rpx;
+    color: white;
+    font-weight: normal;
+    background-color: rgba(251, 0, 255, 0.38);
+    width: 80% !important;
+    border-radius: 20rpx;
+}
+

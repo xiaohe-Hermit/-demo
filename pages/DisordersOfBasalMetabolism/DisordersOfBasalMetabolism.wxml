@@ -1,0 +1,75 @@
+<view class="container">
+    <view class="title">
+        <text>基础代谢障碍类疾病</text>
+    </view>
+    <view class="content">
+        <view class="show">
+            <view wx:if="{{selected > 0}}">
+                
+            </view>
+            <view wx:else>
+                <text>{{show}}</text>
+            </view>
+        </view>
+        <view class="selectArea">
+            <view class="select">
+                <view class="colomn">
+                    <view class="single">
+                        <text>糖尿病</text>
+                        <view data-id="1" bindtap="clickBtn" class="{{selectBtn1===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>尿毒症</text>
+                        <view data-id="2" bindtap="clickBtn" class="{{selectBtn2===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>高尿酸血症</text>
+                        <view data-id="3" bindtap="clickBtn" class="{{selectBtn3===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>心脑血管疾病</text>
+                        <view data-id="4" bindtap="clickBtn" class="{{selectBtn4===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                </view>
+                <view class="colomn">
+                    <view class="single">
+                        <text>高血压</text>
+                        <view data-id="5" bindtap="clickBtn" class="{{selectBtn5===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>高脂血症</text>
+                        <view data-id="6" bindtap="clickBtn" class="{{selectBtn6===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>肝功能衰竭</text>
+                        <view data-id="7" bindtap="clickBtn" class="{{selectBtn7===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                    <view class="single">
+                        <text>甲状腺功能异常</text>
+                        <view data-id="8" bindtap="clickBtn" class="{{selectBtn8===true ? 'button_selected' : 'button'}}"></view>
+                    </view>
+                </view>
+            </view>
+            <view class="other">
+                <view class="single">
+                    <text>其他</text>
+                    <view data-id="9" bindtap="clickBtn" class="{{selectBtn9===true ? 'button_selected' : 'button'}}"></view>
+                </view>
+                <view class="input">
+                    <input type="text" maxlength="15" placeholder="请填写（15字内）" disabled="{{!selectBtn9}}" />
+                </view>
+                <view class="single">
+                    <text>均没有以上病症</text>
+                    <view data-id="10" bindtap="clickBtn" class="{{selectBtn10===true ? 'button_selected' : 'button'}}"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="submit" bindtap="submitData">
+        <view class="{{selectBtn1===false&&selectBtn2===false&&selectBtn3===false&&selectBtn4===false&&selectBtn5===false&&selectBtn6===false&&selectBtn7===false&&selectBtn8===false&&selectBtn9===false&&selectBtn10===false ? 'sub_btn' : 'sub_btn_selected'}}">
+            <text>下一步</text>
+        </view>
+    </view>
+</view>
+
+

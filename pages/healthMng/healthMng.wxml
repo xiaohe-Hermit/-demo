@@ -1,0 +1,66 @@
+<view class="container">
+    <view class="topTap">
+        <view class="{{isTap1Selected ? 'tap1Selected' : 'tap1'}}" bindtap="switchToTap1">
+            <text>全部结果</text>
+        </view>
+    <view class="{{isTap2Selected ? 'tap2Selected' : 'tap2'}}" bindtap="switchToTap2">
+        <text>收藏</text>
+    </view>
+    </view>
+    <view class="buttomContent">
+        <!-- 全部结果 -->
+        <view wx:if="{{isTap1Selected}}">
+            <view wx:if="{{results.length > 0}}">
+                <view wx:for="{{results}}">
+                    <view class="result">
+                        <view class="{{item.result_type=='每日健康打卡' ? 'logo_clock':'logo_data'}}">
+                            <!-- 图片内的logo -->
+                            <image class="logoImage" src="/static/icon/全部结果logo.png" mode=""/>
+                        </view>
+                        <view class="result_content">
+                            <text class="result_type">{{item.result_type}}</text>
+                            <text class="result_date">{{item.result_date}}</text>
+                        </view>
+                        <view class="like_logo" data-id="{{item.result_id}}" bindtap="switchLike">
+                            <!-- 咱也不懂，反正就是要加个！在前面 -->
+                            <view wx:if="{{!item.isCollected}}">
+                                <image class="like" src="/static/icon/爱心空心.png" mode=""/>
+                            </view>
+                            <view wx:else>
+                                <image class="like" src="/static/icon/爱心实心.png" mode=""/>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view wx:else class="missing">
+                <text>暂无相关数据</text>
+            </view>
+        </view>
+        <!-- 收藏 -->
+        <view wx:else>
+            <view wx:if="{{like_num > 0}}">
+                <view wx:for="{{results}}">
+                    <view wx:if="{{item.isCollected === true}}">
+                        <view class="result">
+                            <view class="{{item.result_type=='每日健康打卡' ? 'logo_clock':'logo_data'}}">
+                                <!-- 图片内的logo -->
+                                <image class="logoImage" src="/static/icon/全部结果logo.png" mode=""/>
+                            </view>
+                            <view class="result_content">
+                                <text class="result_type">{{item.result_type}}</text>
+                                <text class="result_date">{{item.result_date}}</text>
+                            </view>
+                            <view class="like_logo" data-id="{{item.result_id}}" bindtap="switchLike">
+                                <image class="like2" src="/static/icon/爱心实心.png" mode=""/> 
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view wx:else class="missing">
+                <text>暂无相关数据</text>
+            </view>
+        </view>
+    </view>
+</view>

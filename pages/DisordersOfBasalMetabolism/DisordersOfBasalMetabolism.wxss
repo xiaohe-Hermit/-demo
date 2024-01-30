@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    height: 150rpx;
+    align-items: center;
+}
+.title text{
+    font-size: 40rpx;
+    margin-left: 40rpx;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.show{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    height: 80rpx;
+    border-bottom: rgba(229, 229, 229, 1) solid  5rpx;
+    align-items: center;
+}
+.selectArea{
+    height: 650rpx;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50rpx;
+    border-radius: 12rpx;
+    border: 2px solid rgba(229, 229, 229, 1);
+    flex-direction: column;
+}
+.select{
+    display: flex;
+}
+.colomn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30rpx;
+}
+.single{
+    display: flex;
+    margin-top: 40rpx;
+    align-items: center;
+    margin-left: 30rpx;
+}
+.button{
+    height: 30rpx;
+    width: 30rpx;
+    border: rgba(252, 84, 255, 1) solid 1rpx;
+    border-radius: 50%;
+    margin-left: 20rpx;
+}
+.button_selected{
+    height: 30rpx;
+    width: 30rpx;
+    border: rgb(252, 84, 255) solid 1rpx;
+    background-color: rgba(254, 181, 255, 1);
+    border-radius: 50%;
+    margin-left: 20rpx;
+}
+.other{
+    flex-direction: column;
+}
+.input{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 20rpx;
+    border-bottom: 2px solid rgba(229, 229, 229, 1);
+}
+.submit{
+    display: flex;
+    border-top: rgba(242, 244, 245, 1) solid 5rpx;
+    margin-top: 100rpx;
+}
+.sub_btn{
+    display: flex;
+    margin-top: 20rpx;
+    height: 90rpx;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 12px;
+    background-color: rgba(254, 181, 255, 1);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sub_btn_selected{
+    display: flex;
+    margin-top: 20rpx;
+    height: 90rpx;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 12px;
+    background-color: rgb(234, 6, 238);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+

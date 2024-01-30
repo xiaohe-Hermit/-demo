@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="top-content">
+    <image class="userImage" src="{{avatarUrl}}"></image>
+    <view class="info">
+        <text class="username">早上好{{username}}</text>
+        <text class="care">你好吗？</text>
+    </view>
+</view>
+    <view class="buttom-content">
+        <view class="n n1" bindtap="toCtgInfo">
+            <image class="bar-image" src="https://img.js.design/assets/img/645ca56b3a2c1670d222b3bb.png#5247eba5632114090ed87f3f8b16cb92"></image>
+            <text class="toName">CTG信号查看</text>
+            <image class="arrow a1" src="/static/icon/arrow-right.png" mode=""></image>
+        </view>
+        <view class="n n2" bindtap="toHealthMng">
+            <image class="bar-image" src="https://img.js.design/assets/img/645ca56b3a2c1670d222b3bb.png#5247eba5632114090ed87f3f8b16cb92"></image>
+            <text class="toName">健康管理</text>
+            <image class="arrow a2" src="/static/icon/arrow-right.png" mode=""></image>
+        </view>
+    </view>
+</view>

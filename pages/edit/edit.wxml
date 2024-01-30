@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="userImage">
+        <image src="{{avatarUrl}}" mode=""/>
+        <image class="edit" src="/static/icon/编辑.png" mode=""/>
+    </view>
+    <view class="massage">
+        <view class="inputArea">
+            <text>昵称</text>
+            <input bindblur="bindNicknameChange" type="nickname" maxlength="15" value="{{username}}"/>
+        </view>
+        <view class="inputArea">
+            <text>证件号码</text>
+            <input bindblur="bindIdentityChange" type="idcard" maxlength="18" value="{{identity}}"/>
+        </view>
+        <view class="inputArea">
+            <text>出生日期</text>
+            <picker mode="date" start="1900-01-01" end="{{nowDate}}" bindchange='bindBirthChange'>
+                <view wx:if="{{birth}}">
+                    {{birth}}
+                </view>
+                <view wx:else>
+                    {{nowDate}}
+                </view>
+            </picker>
+        </view>
+        <view class="inputArea">
+            <text>手机号</text>
+            <input bindblur="bindPhoneChange" type="number" maxlength="11" value="{{phone}}"/>
+        </view>
+        <view class="inputArea">
+            <text>地址</text>
+            <input bindblur="bindAddressChange" type="text" maxlength="30" value="{{address}}"/>
+        </view>
+        <view class="inputArea">
+            <text>Email</text>
+            <input bindblur="bindEmailChange" type="text" maxlength="25" value="{{email}}"/>
+        </view>
+        <view class="pickers">
+            <view class="picker">
+                <text>胎次</text>
+                <picker mode="selector" range="{{taiciRange}}" bindchange='bindTaiciChange'>
+                    {{taici}}
+                    <image src="/static/icon/arrow-down.png" mode=""/>
+                </picker>
+            </view>
+            <view class="picker">
+                <text>产次</text>
+                <picker mode="selector" range="{{chanciRange}}" bindchange='bindChanciChange'>
+                    {{chanci}}
+                    <image src="/static/icon/arrow-down.png" mode=""/>
+                </picker>
+            </view>
+        </view>
+    </view>
+    <view class="submit" bindtap="submitInfo">
+        <button>更新</button>
+    </view>
+</view>

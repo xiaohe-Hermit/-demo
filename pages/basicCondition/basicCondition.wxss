@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50rpx;
+    padding-bottom: 20rpx;
+    border-bottom: rgba(242, 244, 245, 1) solid 5rpx;
+}
+.title text{
+    font-size: 50rpx;
+}
+.tapbar1{
+    display: flex;
+    height: 130rpx;
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: rgba(242, 244, 245, 1) solid 5rpx;
+}
+.tapbar1 text{
+    margin-top: 50rpx;
+    font-size: 35rpx;
+}
+.tapbar1 image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-top: 50rpx;
+    margin-left: 280rpx;
+}
+
+
+
+
+
+

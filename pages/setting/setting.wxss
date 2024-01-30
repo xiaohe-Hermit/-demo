@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: x-large;
+    border-bottom: rgba(242, 244, 245, 1) solid 3rpx;
+    padding-bottom: 30rpx;
+}
+.taps{
+    display: flex;
+    flex-direction: column;
+}
+.tap{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 70rpx;
+    align-items: center;
+    border-bottom: rgba(242, 244, 245, 1) solid 5rpx;
+    padding-bottom: 30rpx;
+}
+
+.tap .content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.tap text{
+    margin-left: 30rpx;
+}
+.tap image{
+    width: 45rpx;
+    height: 45rpx;
+}

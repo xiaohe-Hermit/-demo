@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="title">
+        <text>基础病情况</text>
+    </view>
+    <view class="tapbar1" >
+        <text>基础代谢障碍类疾病</text>
+        <image src="/static/icon/arrow-down.png" bindtap="toDisordersOfBasalMetabolism" mode=""/>
+    </view>
+    <view class="tapbar1">
+        <text>免疫功能低下类疾病</text>
+        <image src="/static/icon/arrow-down.png" bindtap="toDiseasesWithLowImmuneFunction" mode=""/>
+    </view>
+    <view class="tapbar1">
+        <text>重大慢性消耗性疾病</text>
+        <image src="/static/icon/arrow-down.png" bindtap="toMajorChronicWastingDisease" mode=""/>
+    </view>
+</view>
+

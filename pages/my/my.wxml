@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="top-content">
+        <view>
+            <image class="userImage" src="{{avatarUrl}}" bindtap="showUserImage"></image>
+            <image class="edit" src="/static/icon/编辑.png" bindtap="toEdit"></image>    
+        </view>
+        <view class="info">
+            <text class="username">{{username}}</text>
+            <text class="usermail">{{usermail}}</text>
+        </view>
+    </view>
+    <view class="buttom-content">
+        <view class="n1" bindtap="toCtgHistory">
+            <image class="l-icon" src="/static/icon/数据监管.png"></image>
+            <text class="toName">CTG历史记录</text>
+            <image src="/static/icon/arrow-right-black.png" class="to" mode=""/>
+        </view>
+        <view class="n1" bindtap="toBasicCondition">
+            <image class="l-icon" src="/static/icon/文档.png"></image>
+            <text class="toName">基础病情况</text>
+            <image src="/static/icon/arrow-right-black.png" class="to to2"  mode=""/>
+        </view>
+        <view class="n1" bindtap="toVipCard">
+            <image class="l-icon" src="/static/icon/票据.png"></image>
+            <text class="toName">会员卡</text>
+            <image src="/static/icon/arrow-right-black.png" class="to to3" mode=""/>
+        </view>
+        <view class="n1" bindtap="toUs">
+            <image class="l-icon" src="/static/icon/咨询.png"></image>
+            <text class="toName">联系我们</text>
+            <image src="/static/icon/arrow-right-black.png" class="to to4" mode=""/>
+        </view>
+        <view class="n1" bindtap="toSetting">
+            <image class="l-icon" src="/static/icon/管理.png"></image>
+            <text class="toName">设置</text>
+            <image src="/static/icon/arrow-right-black.png" class="to to5" mode=""/>
+        </view>
+    </view>
+</view>

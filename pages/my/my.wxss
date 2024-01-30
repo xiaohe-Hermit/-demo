@@ -1,0 +1,77 @@
+
+.container{
+    flex-direction: column;
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    height: 350rpx;
+    background: linear-gradient(180deg, rgba(255, 206, 244, 1.0) 0%, rgba(251, 0, 255, 0.29) 57.5%, rgba(136, 0, 255, 0.39) 100%);
+}
+.buttom-content{
+    flex-direction: column;
+}
+.userImage{
+    height: 175rpx;
+    width: 175rpx;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username{
+    color: white;
+    font-weight: bold;
+}
+
+.usermail{
+    color: white;
+}
+.edit{
+    height: 50rpx;
+    width: 50rpx;
+    margin-left: -40rpx;
+}
+.n1{
+    display: flex;
+    height: 100rpx;
+    width: 700rpx;
+    margin-left: 25rpx;
+    margin-top: 20rpx;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.l-icon{
+    height: 60rpx;
+    width: 60rpx;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+}
+.toName{
+    font-size: 35rpx;
+    margin-left: 20rpx;
+    margin-top: 30rpx;
+}
+.to{
+    height: 40rpx;
+    width: 40rpx;
+    margin-top: 35rpx;
+    margin-left: 330rpx;
+}
+.to2{
+    margin-left: 360rpx;
+}
+.to3{
+    margin-left: 428rpx;
+}
+.to4{
+    margin-left: 395rpx;
+}
+.to5{
+    margin-left: 460rpx;
+}
+
+

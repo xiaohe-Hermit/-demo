@@ -1,0 +1,37 @@
+<view class="container">
+    <view class="title">
+        <text>设置</text>
+    </view>
+    <view class="taps">
+        <view class="tap">
+        <view class="content">
+            <image src="/static/icon/Lock@3x.png" mode=""/>
+            <text>修改密码</text>
+        </view>
+            <image class="arrow" src="/static/icon/arrow-right-black.png" mode=""/>
+        </view>
+        <view class="tap">
+        <view class="content">
+            <image src="/static/icon/Stroke 4@3x.png" mode=""/>
+            <text>聊天设置</text>
+        </view>
+            
+            <image class="arrow" src="/static/icon/arrow-right-black.png" mode=""/>
+        </view>
+        <view class="tap">
+        <view class="content">
+            <image src="/static/icon/Vector@3x.png" mode=""/>
+            <text>单位</text>
+        </view>
+            
+            <image class="arrow" src="/static/icon/arrow-right-black.png" mode=""/>
+        </view>
+        <view class="tap">
+            <view class="content">
+                <image src="/static/icon/Document@3x.png" mode=""/>
+            <text>条款政策</text>
+            </view>
+            <image class="arrow" src="/static/icon/arrow-right-black.png" mode=""/>
+        </view>
+    </view>
+</view>
