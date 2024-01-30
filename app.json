@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/ctginfo/ctginfo",
+        "pages/healthMng/healthMng",
+        "pages/ctgHistory/ctgHistory",
+        "pages/setting/setting",
+        "pages/us/us",
+        "pages/vipCard/vipCard",
+        "pages/basicCondition/basicCondition",
+        "pages/edit/edit",
+        "pages/fhr/fhr",
+        "pages/UC/uc",
+        "pages/fm/fm",
+        "pages/DisordersOfBasalMetabolism/DisordersOfBasalMetabolism",
+        "pages/DiseasesWithLowImmuneFunction/DiseasesWithLowImmuneFunction",
+        "pages/MajorChronicWastingDisease/MajorChronicWastingDisease"
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#f779ff",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#ff00ff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tabs/仓储仓库.png",
+                "selectedIconPath": "static/tabs/仓储仓库(1).png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "static/tabs/用户.png",
+                "selectedIconPath": "static/tabs/用户(1).png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
